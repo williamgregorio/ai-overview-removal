@@ -7,7 +7,14 @@
     "declarativeNetRequestFeedback",
     "declarativeNetRequest"
   ],
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_0_",
+      "enabled": true,
+      "path": "rules_gen_24.json"
+    }]
+  }
   "host_permissions": [
-    "*://*.google.com/*"
+    "*://*.google.com/search"
   ],
 }
