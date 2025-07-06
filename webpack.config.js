@@ -34,7 +34,8 @@ module.exports = (_, argv) => {
       new CopyPlugin({
         patterns: [
           { from: "manifest.json", to: "manifest.json"},
-          { from: "src/popup/popup.html", to: "popup/popup.html"}
+          { from: "src/popup/popup.html", to: "popup/popup.html"},
+          { from: "rules_gen_24.json", to: "rules_gen_24.json"}
         ],
       }),
     ],
