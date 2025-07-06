@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "chrome-types": "^0.1.359",
+    "copy-webpack-plugin": "^13.0.0",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
     "webpack": "^5.99.9",
