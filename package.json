@@ -1,0 +1,15 @@
+{
+  "name": "Hide and Remove Google AI Overview from search",
+  "version": "0.0.1",
+  "description": "description",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Sanity: testing true\" && exit 1",
+    "dev": "echo dev"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
