@@ -90,7 +90,7 @@ output/
 .netrwhist
 
 # Emacs
-#*#
+"*#"
 .#*
 
 # -------------------------------------------------------------------
@@ -109,7 +109,3 @@ logs/
 *.scc
 *.vspscc
 *.vssscc
-
-# Test coverage results
-coverage/
-.nyc_output/
