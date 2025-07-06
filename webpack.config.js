@@ -1,3 +1,4 @@
+const CopyPlugin = require("copy-webpack-plugin");
 module.exports = (_, argv) => {
   const mode = () => {
     if (argv.mode === "production") {
@@ -28,6 +29,14 @@ module.exports = (_, argv) => {
     output: {
       filename: "[name].bundle.js",
       clean: true,
-    }
+    },
+    plugins: [
+      new CopyPlugin({
+        patterns: [
+          { from: "manifest.json", to: "manifest.json"},
+          { from: "src/popup/popup.html", to: "popup/popup.html"}
+        ],
+      }),
+    ],
   }
 }   
