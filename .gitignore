@@ -1,0 +1,115 @@
+# -------------------------------------------------------------------
+# 1. Operating System Specific Files
+# -------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.localized
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*.vc.db
+*.vc.opendb
+
+# Linux
+*~
+#*#
+.fuse_hidden*
+.directory
+.nfs*
+
+# -------------------------------------------------------------------
+# 2. Node.js / npm / Yarn
+# -------------------------------------------------------------------
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# pnpm
+.pnpm-store/
+
+# IDE-specific (e.g., VSCode's .vscode/settings.json, .vscode/launch.json, but not extensions.json)
+.vscode/*.code-workspace
+.vscode/*.log
+.vscode/.ropeproject
+
+# -------------------------------------------------------------------
+# 3. Webpack / Build Output
+# -------------------------------------------------------------------
+
+# Webpack's output directory
+dist/
+build/
+output/
+
+# Webpack cache or temporary files
+.webpack/
+.cache/
+
+# -------------------------------------------------------------------
+# 4. Environment Variables
+# -------------------------------------------------------------------
+
+# Local environment variables (should not be committed)
+.env
+.env.local
+.env.*.local
+.venv
+.venv.local
+.venv.*.local
+
+# -------------------------------------------------------------------
+# 5. Editor / IDE Specific Files
+# -------------------------------------------------------------------
+
+# IntelliJ / WebStorm / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code (user-specific settings, tasks, launch configs - keep extensions.json)
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/workspace.json
+
+# Vim
+*.swp
+*.swo
+.netrwhist
+
+# Emacs
+#*#
+.#*
+
+# -------------------------------------------------------------------
+# 6. Miscellaneous / Temporary Files
+# -------------------------------------------------------------------
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.rej
+*.scc
+*.vspscc
+*.vssscc
+
+# Test coverage results
+coverage/
+.nyc_output/
