@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "manifest_version": 3,
   "name": "Remove Google AI Overview when searching.",
   "version": "0.0.1",
   "decription": "Stops certain requests, and removes Google AI Overview components.",
@@ -11,10 +11,10 @@
     "rule_resources": [{
       "id": "ruleset_0_",
       "enabled": true,
-      "path": "rules_gen_24.json"
+      "path": "gen_24_rules.json"
     }]
   },
   "host_permissions": [
     "*://*.google.com/search"
-  ],
+  ]
 }
